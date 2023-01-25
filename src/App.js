@@ -12,22 +12,25 @@ import Shopping from "./pages/Shopping";
 import UniVp from "./pages/UniVp";
 
 function App() {
+         
   return (
     
-   
-    <div className="main-content">
+       <div className="main-content">
     <BrowserRouter>
     <Header />
+
+    <div className="paginas">
     <Routes>
-    <Route path="/" element={<Home />} />
-    <Route  path="/playnodia" element={<PlaynoDia />}/>
-    <Route  path="/univp" element={<UniVp />}/>
-    <Route  path="/espacovp" element={<EspacoVp />}/>
-    <Route  path="/shopping" element={<Shopping />}/>
-    <Route  path="/chamados" element={<Chamados />}/>
-    <Route  path="/dashboards" element={<Dashboards />}/>
-    <Route  path="/assinatura" element={<Assinatura />}/>
+      <Route path="/" element={<Home />} />
+      <Route  path="/playnodia" element={<PlaynoDia />}/>
+      <Route  path="/univp" element={<UniVp />}/>
+      <Route  path="/espacovp" element={<EspacoVp />}/>
+      <Route  path="/shopping" element={<Shopping />}/>
+      <Route  path="/chamados" element={<Chamados />}/>
+      <Route  path="/dashboards" element={<Dashboards />}/>
+      <Route  path="/assinatura" element={<Assinatura />}/>
     </Routes>
+    </div>
 
     
     </BrowserRouter>
