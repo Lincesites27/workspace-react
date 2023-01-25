@@ -31,16 +31,23 @@
     transition: 0.5s;
 }
 
+.icons{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid red;
+}
 .nav{
     display: flex;
     flex-direction: column;
     margin-top: 48px;
     gap:18px;
     position: relative;
+    width: 100%;
     
 }
 
-.nav a{
+.icons a{
     display: flex;
     align-items: center;
     gap: 12px;
@@ -54,11 +61,14 @@
     transition: 0.5s ease-in-out;
 }
 
-.nav a:hover{
+.icons:hover {
     background-color: #fff;
-    color: #52009f;
+    
 } 
 
+.icons:hover a{
+    color: #52009f;
+}
 
 .header.active{
     width: 5%;

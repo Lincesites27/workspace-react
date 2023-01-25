@@ -35,9 +35,25 @@ const Header = (ativaClasse) => {
         
     
         <nav className='nav'>
+
+            <div className="icons">
+            <BiHomeAlt />
+            <Link to="/" >Home</Link>
+            </div>
+
+            <div className="icons">
+            <AiOutlinePlayCircle />
+            <Link to="/playnodia"> Play no dia</Link>
+            </div>
             
-            <Link to="/" ><BiHomeAlt />Home</Link>
-            <Link to="/playnodia"> <AiOutlinePlayCircle />Play no dia</Link>
+            <div className="icons"></div>
+            <div className="icons"></div>
+            <div className="icons"></div>
+            <div className="icons"></div>
+            <div className="icons"></div>
+            <div className="icons"></div>
+            
+            
             <Link to="/univp" > <IoSchoolOutline/>UniVP</Link>
             <Link to="/espacovp" ><AiOutlineUsergroupDelete />Espaço Vplayer</Link>
             <Link to="/shopping" ><AiOutlineShoppingCart />Shopping VP</Link>
