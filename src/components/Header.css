@@ -1,0 +1,19 @@
+.header{
+    width: 20%;
+    background-color: #52009f;
+    height: 100vh;
+    padding: 72px 20px;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 24px;
+}
