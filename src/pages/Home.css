@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-left{
+  width: 50%;
+}
+.content-right{
+    width: 50%;
+}
+
+.content-left h1{
+    color: #5900CD;
+}
