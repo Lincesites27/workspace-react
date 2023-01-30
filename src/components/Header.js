@@ -36,30 +36,55 @@ const Header = (ativaClasse) => {
     
         <nav className='nav'>
 
+           
+            <div className="icons"> 
+              <Link to="/" >
+              <BiHomeAlt /> 
+              <span>Home</span>
+              </Link>
+            </div>
+           
             <div className="icons">
-            <BiHomeAlt />
-            <Link to="/" >Home</Link>
+              <Link to="/playnodia"> <AiOutlinePlayCircle />
+              <span>Play no dia</span>
+              </Link>
             </div>
 
             <div className="icons">
-            <AiOutlinePlayCircle />
-            <Link to="/playnodia"> Play no dia</Link>
+              <Link to="/univp" > <IoSchoolOutline/>
+              <span>UniVP</span>
+              </Link>
             </div>
-            
-            <div className="icons"></div>
-            <div className="icons"></div>
-            <div className="icons"></div>
-            <div className="icons"></div>
-            <div className="icons"></div>
-            <div className="icons"></div>
-            
-            
-            <Link to="/univp" > <IoSchoolOutline/>UniVP</Link>
-            <Link to="/espacovp" ><AiOutlineUsergroupDelete />Espaço Vplayer</Link>
-            <Link to="/shopping" ><AiOutlineShoppingCart />Shopping VP</Link>
-            <Link to="/chamados" ><MdCallMissedOutgoing />Chamados</Link>
-            <Link to="/dashboards" ><RxDashboard />Dashboards</Link>
-            <Link to="/assinatura"><FaSignature />Assinatura de E-mail</Link>
+
+            <div className="icons">
+              <Link to="/espacovp" ><AiOutlineUsergroupDelete />
+              <span>Espaço Vplayer</span>
+              </Link>
+            </div>
+
+            <div className="icons">
+              <Link to="/shopping" ><AiOutlineShoppingCart />
+              <span>Shopping VP</span>
+              </Link>
+            </div>
+
+            <div className="icons">
+              <Link to="/chamados" ><MdCallMissedOutgoing />
+              <span>Chamados</span>
+              </Link>
+            </div>
+
+            <div className="icons">
+              <Link to="/dashboards" >
+                <RxDashboard /><span>Dashboards</span>
+                </Link>
+            </div>
+
+            <div className="icons">
+              <Link to="/assinatura"><FaSignature />
+              <span>Assinatura de E-mail</span>
+              </Link>
+            </div>
    
         </nav>
   

@@ -34,34 +34,39 @@
 .icons{
     display: flex;
     align-items: center;
-    width: 100%;
-    border: 1px solid red;
 }
+
 .nav{
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    gap:18px;
+    gap:24px;
     position: relative;
     width: 100%;
     
 }
 
-.icons a{
- 
+.icons svg{
+    font-size: 32px;
+}
+
+.nav a{
+    align-items: center;
+    display: flex;
     gap: 12px;
     position: relative;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    padding: 12px;
+    padding: 24px 12px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 
 .icons:hover {
     background-color: #fff;
+    border-radius: 4px;
     
 } 
 
@@ -75,6 +80,15 @@
 .header.active .toogle_header{
  transform: rotate(180deg);
 }
-.header.active .nav a{
+.header.active .nav span{
     display: none;
 }
+.header.active .icons svg{
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+  
+}
+
