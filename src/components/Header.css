@@ -48,8 +48,7 @@
 }
 
 .icons a{
-    display: flex;
-    align-items: center;
+ 
     gap: 12px;
     position: relative;
     color: #fff;
