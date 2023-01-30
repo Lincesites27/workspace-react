@@ -10,6 +10,7 @@
 }
 .content-right{
     width: 50%;
+    display: flex;
 }
 
 .content-left h1{
